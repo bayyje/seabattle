@@ -1,8 +1,7 @@
 import random, os, time
 
 # Function to clear the screen (removes old text)
-def clear_screen():
-    os.system('cls' if os.name == 'nt' else 'clear')
+def clear_screen(): os.system('cls')
 
 # Function to display the game board
 def display_board(board):
